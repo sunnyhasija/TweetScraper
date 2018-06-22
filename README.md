@@ -1,8 +1,6 @@
 # TweetScraper
-Scripts to scrape twitter API for tweets
+The keywordscraper.py file allows you to download tweets containing a particular keyword from the public twitter stream.
 
-The KeywordScraper.py file allows for download of all tweets that contain a particular keyword. 
+The profilescraper.py file allows you to download tweets from any public twitter profile. It paginates through the profile to download all tweets (actually 3200, most the twitter API allows) from that profile.
 
-The ProfileScraper.py file allows for download of all tweets (about 3200 max allowed by twitter API) from a twitter profile using pagination to scrape all the tweets that are available. 
-
-All files provided under MIT license, citation information included within each file.
+Code presented under MIT license, and all the relevant citation information is included at the top of the code in each file. 
