@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+# encoding: utf-8
+#Please use the following citation if using the Code
+
+#*************************************************
+#*    Title: KeywordScraper.py
+#*    Author: Abhinav Hasija
+#*    Date: 2018
+#*    Code version: 1.0
+#*    Availability: www.github.com/sunnyhasija/tweetscraper
+#*************************************************/
+
 import tweepy #Package that allows you to use the Twitter API
 import csv  #Package to read and write CSV
 import pandas as pd #Data frame package from Python
